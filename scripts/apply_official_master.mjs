@@ -13,6 +13,7 @@ const writeJson = (target, value) => fs.writeFileSync(target, `${JSON.stringify(
 const companyData = readJson(companiesPath)
 const overridesData = readJson(overridesPath)
 const screenerData = readJson(screenerPath)
+const resetFromScreener = process.argv.includes('--reset-from-screener')
 const oldCompanies = new Map(companyData.companies.map((company) => [company.code, company]))
 const screenerCompanies = new Map(screenerData.companies.map((company) => [company.code, company]))
 
@@ -68,13 +69,16 @@ companyData.companies = master.map((item, index) => {
     sector: item.sector,
     cavm: item.cavm,
     components: componentObject(item.components),
-    currentPrice: item.price ?? existing?.currentPrice ?? screened?.currentPrice ?? screened?.metrics?.price,
-    priceBasisDate: item.price ? '2026-08-13' : existing?.priceBasisDate ?? companyData.priceBasisDate ?? '2026-08-10',
+    currentPrice: item.price ?? (resetFromScreener ? null : existing?.currentPrice) ?? screened?.currentPrice ?? screened?.metrics?.price,
+    priceBasisDate: item.price ? '2026-08-13' : (resetFromScreener ? '2026-08-10' : existing?.priceBasisDate ?? companyData.priceBasisDate ?? '2026-08-10'),
     priceSource: existing?.priceSource || '공공데이터포털 금융위원회 주식시세정보',
     reason: item.reason,
     risk: item.risk,
-    financials: existing?.financials || createFinancials(screened),
-    sources: existing?.sources || [
+    financials: resetFromScreener ? createFinancials(screened) : existing?.financials || createFinancials(screened),
+    sources: resetFromScreener ? [
+      { label: 'OpenDART 정기보고서', url: 'https://opendart.fss.or.kr/' },
+      { label: 'KRX 정보데이터시스템', url: 'https://data.krx.co.kr/' },
+    ] : existing?.sources || [
       { label: 'OpenDART 정기보고서', url: 'https://opendart.fss.or.kr/' },
       { label: 'KRX 정보데이터시스템', url: 'https://data.krx.co.kr/' },
     ],
@@ -143,4 +147,4 @@ overridesData.companies = Object.fromEntries(master.map((item) => {
 
 writeJson(companiesPath, companyData)
 writeJson(overridesPath, overridesData)
-console.log(`Applied official master: ${master.length} companies, ${overridesData.officialMaster.candidates.length} candidates`)
+console.log(`Applied official master: ${master.length} companies, ${overridesData.officialMaster.candidates.length} candidates${resetFromScreener ? ' (financials reset from screener)' : ''}`)
