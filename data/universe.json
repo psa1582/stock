@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T03:43:18+09:00",
-  "basisDate": "2026-09-23",
+  "generatedAt": "2026-10-13T05:25:17+09:00",
+  "basisDate": "2026-10-08",
   "status": "provisional_name_classification",
   "managed_item_checked": false,
   "source": {
@@ -26,16 +26,16 @@
     "KRX 공식 종목분류와 지정 상태를 교차검증하기 전에는 1차 정량 선별에만 사용해야 합니다."
   ],
   "counts": {
-    "providerRows": 2755,
+    "providerRows": 2757,
     "kospi": 830,
-    "kosdaq": 1818,
+    "kosdaq": 1820,
     "classified": {
-      "common_candidate": 2549,
+      "common_candidate": 2551,
       "name_likely_preferred": 3,
       "name_likely_spac": 71,
       "name_likely_reit": 25
     },
-    "preliminaryEligible": 2549,
+    "preliminaryEligible": 2551,
     "knownExcluded": 99
   },
   "companies": [
@@ -451,6 +451,20 @@
       "name": "하림지주",
       "corporationName": "(주)하림지주",
       "corporateRegistrationNumber": "1601110003931",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
+      "code": "0035S0",
+      "isin": "KR70035S0001",
+      "name": "빅웨이브로보틱스",
+      "corporationName": "빅웨이브로보틱스(주)",
+      "corporateRegistrationNumber": "1101117638517",
       "market": "KOSDAQ",
       "classification": "common_candidate",
       "classificationBasis": "conservative_name_heuristic",
@@ -9100,8 +9114,8 @@
     {
       "code": "078130",
       "isin": "KR7078130002",
-      "name": "국일제지",
-      "corporationName": "국일제지(주)",
+      "name": "에스엠국일",
+      "corporationName": "에스엠국일(주)",
       "corporateRegistrationNumber": "1345110001377",
       "market": "KOSDAQ",
       "classification": "common_candidate",
@@ -9761,20 +9775,6 @@
       "name": "휴온스글로벌",
       "corporationName": "(주)휴온스글로벌",
       "corporateRegistrationNumber": "1101110400202",
-      "market": "KOSDAQ",
-      "classification": "common_candidate",
-      "classificationBasis": "conservative_name_heuristic",
-      "classificationVerified": false,
-      "managementStatus": "unverified",
-      "eligibleForPreliminaryScreen": true,
-      "exclusionReason": null
-    },
-    {
-      "code": "084180",
-      "isin": "KR7084180009",
-      "name": "수성웹툰",
-      "corporationName": "수성웹툰 주식회사",
-      "corporateRegistrationNumber": "1101110313728",
       "market": "KOSDAQ",
       "classification": "common_candidate",
       "classificationBasis": "conservative_name_heuristic",
@@ -13244,8 +13244,8 @@
     {
       "code": "134580",
       "isin": "KR7134580000",
-      "name": "탑코미디어",
-      "corporationName": "주식회사 탑코미디어",
+      "name": "엔키AX",
+      "corporationName": "(주)엔키에이엑스",
       "corporateRegistrationNumber": "1101113615121",
       "market": "KOSDAQ",
       "classification": "common_candidate",
@@ -15020,20 +15020,6 @@
       "exclusionReason": null
     },
     {
-      "code": "196490",
-      "isin": "KR7196490007",
-      "name": "디에이테크놀로지",
-      "corporationName": "(주)디에이테크놀로지",
-      "corporateRegistrationNumber": "1101111958888",
-      "market": "KOSDAQ",
-      "classification": "common_candidate",
-      "classificationBasis": "conservative_name_heuristic",
-      "classificationVerified": false,
-      "managementStatus": "unverified",
-      "eligibleForPreliminaryScreen": true,
-      "exclusionReason": null
-    },
-    {
       "code": "196700",
       "isin": "KR7196700009",
       "name": "웹스",
@@ -15624,8 +15610,8 @@
     {
       "code": "210120",
       "isin": "KR7210120002",
-      "name": "캔버스엔",
-      "corporationName": "(주)캔버스엔",
+      "name": "빅텐츠",
+      "corporationName": "(주)빅토리콘텐츠",
       "corporateRegistrationNumber": "1101112753873",
       "market": "KOSDAQ",
       "classification": "common_candidate",
@@ -18007,6 +17993,20 @@
       "name": "엔에프씨",
       "corporationName": "주식회사엔에프씨",
       "corporateRegistrationNumber": "1201110608755",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
+      "code": "266690",
+      "isin": "KR7266690007",
+      "name": "덕산넵코어스",
+      "corporationName": "덕산넵코어스(주)",
+      "corporateRegistrationNumber": "1601110337819",
       "market": "KOSDAQ",
       "classification": "common_candidate",
       "classificationBasis": "conservative_name_heuristic",
@@ -24092,6 +24092,20 @@
       "exclusionReason": null
     },
     {
+      "code": "468670",
+      "isin": "KR7468670005",
+      "name": "브릴스",
+      "corporationName": "주식회사 브릴스",
+      "corporateRegistrationNumber": "1201110746711",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
       "code": "468760",
       "isin": "KR7468760004",
       "name": "유진스팩10호",
@@ -24867,6 +24881,20 @@
       "name": "티엑스알로보틱스",
       "corporationName": "주식회사 티엑스알로보틱스",
       "corporateRegistrationNumber": "1211110330000",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
+      "code": "486510",
+      "isin": "KR7486510001",
+      "name": "글로벌테크놀로지",
+      "corporationName": "(주)글로벌테크놀로지",
+      "corporateRegistrationNumber": "1348110270158",
       "market": "KOSDAQ",
       "classification": "common_candidate",
       "classificationBasis": "conservative_name_heuristic",
