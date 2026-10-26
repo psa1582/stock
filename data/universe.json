@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T02:45:47+09:00",
-  "basisDate": "2026-10-16",
+  "generatedAt": "2026-10-27T02:38:39+09:00",
+  "basisDate": "2026-10-23",
   "status": "provisional_name_classification",
   "managed_item_checked": false,
   "source": {
@@ -26,16 +26,16 @@
     "KRX 공식 종목분류와 지정 상태를 교차검증하기 전에는 1차 정량 선별에만 사용해야 합니다."
   ],
   "counts": {
-    "providerRows": 2752,
+    "providerRows": 2755,
     "kospi": 828,
-    "kosdaq": 1819,
+    "kosdaq": 1821,
     "classified": {
-      "common_candidate": 2551,
+      "common_candidate": 2553,
       "name_likely_preferred": 3,
       "name_likely_spac": 68,
       "name_likely_reit": 25
     },
-    "preliminaryEligible": 2551,
+    "preliminaryEligible": 2553,
     "knownExcluded": 96
   },
   "companies": [
@@ -264,6 +264,20 @@
       "exclusionReason": null
     },
     {
+      "code": "0013Y0",
+      "isin": "KR70013Y0009",
+      "name": "엠에스바이오",
+      "corporationName": "(주)엠에스바이오",
+      "corporateRegistrationNumber": "1311110426823",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
       "code": "001540",
       "isin": "KR7001540004",
       "name": "안국약품",
@@ -283,6 +297,20 @@
       "name": "그린광학",
       "corporationName": "(주)그린광학",
       "corporateRegistrationNumber": "1501110038584",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
+      "code": "0015M0",
+      "isin": "KR70015M0001",
+      "name": "디티에스",
+      "corporationName": "(주)디티에스",
+      "corporateRegistrationNumber": "1615110037981",
       "market": "KOSDAQ",
       "classification": "common_candidate",
       "classificationBasis": "conservative_name_heuristic",
@@ -1818,6 +1846,20 @@
       "exclusionReason": null
     },
     {
+      "code": "0158S0",
+      "isin": "KR70158S0002",
+      "name": "엘리스",
+      "corporationName": "(주)엘리스그룹",
+      "corporateRegistrationNumber": "1601110411655",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
       "code": "016100",
       "isin": "KR7016100000",
       "name": "리더스코스메틱",
@@ -2943,20 +2985,6 @@
       "name": "대성창투",
       "corporationName": "대성창업투자(주)",
       "corporateRegistrationNumber": "1701110031881",
-      "market": "KOSDAQ",
-      "classification": "common_candidate",
-      "classificationBasis": "conservative_name_heuristic",
-      "classificationVerified": false,
-      "managementStatus": "unverified",
-      "eligibleForPreliminaryScreen": true,
-      "exclusionReason": null
-    },
-    {
-      "code": "028080",
-      "isin": "KR7028080000",
-      "name": "휴맥스홀딩스",
-      "corporationName": "(주)휴맥스홀딩스",
-      "corporateRegistrationNumber": "1101110604200",
       "market": "KOSDAQ",
       "classification": "common_candidate",
       "classificationBasis": "conservative_name_heuristic",
@@ -10487,7 +10515,7 @@
       "code": "091340",
       "isin": "KR7091340000",
       "name": "S&K글로벌",
-      "corporationName": "에스엔케이폴리텍(주)",
+      "corporationName": "에스앤케이글로벌(주)",
       "corporateRegistrationNumber": "1355110101465",
       "market": "KOSDAQ",
       "classification": "common_candidate",
@@ -23702,8 +23730,8 @@
     {
       "code": "457600",
       "isin": "KR7457600005",
-      "name": "벡트",
-      "corporationName": "(주)벡트",
+      "name": "벡트로보틱스",
+      "corporationName": "(주)벡트로보틱스",
       "corporateRegistrationNumber": "1101113429621",
       "market": "KOSDAQ",
       "classification": "common_candidate",
