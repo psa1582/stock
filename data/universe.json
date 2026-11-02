@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T02:38:39+09:00",
-  "basisDate": "2026-10-23",
+  "generatedAt": "2026-11-03T05:53:45+09:00",
+  "basisDate": "2026-10-30",
   "status": "provisional_name_classification",
   "managed_item_checked": false,
   "source": {
@@ -26,17 +26,17 @@
     "KRX 공식 종목분류와 지정 상태를 교차검증하기 전에는 1차 정량 선별에만 사용해야 합니다."
   ],
   "counts": {
-    "providerRows": 2755,
+    "providerRows": 2761,
     "kospi": 828,
-    "kosdaq": 1821,
+    "kosdaq": 1826,
     "classified": {
-      "common_candidate": 2553,
+      "common_candidate": 2556,
       "name_likely_preferred": 3,
-      "name_likely_spac": 68,
+      "name_likely_spac": 70,
       "name_likely_reit": 25
     },
-    "preliminaryEligible": 2553,
-    "knownExcluded": 96
+    "preliminaryEligible": 2556,
+    "knownExcluded": 98
   },
   "companies": [
     {
@@ -661,6 +661,20 @@
       "name": "동진쎄미켐",
       "corporationName": "(주)동진쎄미켐",
       "corporateRegistrationNumber": "1201110003848",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
+      "code": "0053F0",
+      "isin": "KR70053F0003",
+      "name": "티앤이코리아",
+      "corporationName": "(주)티앤이코리아",
+      "corporateRegistrationNumber": "1601110366561",
       "market": "KOSDAQ",
       "classification": "common_candidate",
       "classificationBasis": "conservative_name_heuristic",
@@ -1494,6 +1508,20 @@
       "managementStatus": "unverified",
       "eligibleForPreliminaryScreen": true,
       "exclusionReason": null
+    },
+    {
+      "code": "0127E0",
+      "isin": "KR70127E0006",
+      "name": "한화플러스제6호스팩",
+      "corporationName": "한화플러스제6호기업인수목적(주)",
+      "corporateRegistrationNumber": "1101110939734",
+      "market": "KOSDAQ",
+      "classification": "name_likely_spac",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": false,
+      "exclusionReason": "name_indicates_spac"
     },
     {
       "code": "012860",
@@ -2334,6 +2362,20 @@
       "managementStatus": "unverified",
       "eligibleForPreliminaryScreen": true,
       "exclusionReason": null
+    },
+    {
+      "code": "0205H0",
+      "isin": "KR70205H0008",
+      "name": "에스케이증권제14호기업인수목적",
+      "corporationName": "에스케이증권제14호기업인수목적 주식회사",
+      "corporateRegistrationNumber": "1101110959003",
+      "market": "KOSDAQ",
+      "classification": "name_likely_spac",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": false,
+      "exclusionReason": "name_indicates_spac"
     },
     {
       "code": "020710",
@@ -22902,6 +22944,20 @@
       "exclusionReason": null
     },
     {
+      "code": "420610",
+      "isin": "KR7420610008",
+      "name": "인텔리빅스",
+      "corporationName": "주식회사 인텔리빅스",
+      "corporateRegistrationNumber": "1101111995244",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
       "code": "420770",
       "isin": "KR7420770000",
       "name": "기가비스",
@@ -23159,6 +23215,20 @@
       "name": "마녀공장",
       "corporationName": "(주)마녀공장",
       "corporateRegistrationNumber": "1101114810308",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
+      "code": "439270",
+      "isin": "KR7439270000",
+      "name": "크리에이츠",
+      "corporationName": "(주)크리에이츠",
+      "corporateRegistrationNumber": "1101114170778",
       "market": "KOSDAQ",
       "classification": "common_candidate",
       "classificationBasis": "conservative_name_heuristic",
