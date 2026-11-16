@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T06:38:06+09:00",
-  "basisDate": "2026-11-06",
+  "generatedAt": "2026-11-17T06:13:57+09:00",
+  "basisDate": "2026-11-13",
   "status": "provisional_name_classification",
   "managed_item_checked": false,
   "source": {
@@ -26,16 +26,16 @@
     "KRX 공식 종목분류와 지정 상태를 교차검증하기 전에는 1차 정량 선별에만 사용해야 합니다."
   ],
   "counts": {
-    "providerRows": 2764,
+    "providerRows": 2767,
     "kospi": 828,
-    "kosdaq": 1829,
+    "kosdaq": 1832,
     "classified": {
-      "common_candidate": 2559,
+      "common_candidate": 2562,
       "name_likely_preferred": 3,
       "name_likely_spac": 70,
       "name_likely_reit": 25
     },
-    "preliminaryEligible": 2559,
+    "preliminaryEligible": 2562,
     "knownExcluded": 98
   },
   "companies": [
@@ -1832,6 +1832,20 @@
       "exclusionReason": null
     },
     {
+      "code": "0153R0",
+      "isin": "KR70153R0008",
+      "name": "바로팜",
+      "corporationName": "주식회사 바로팜",
+      "corporateRegistrationNumber": "1101117302261",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
       "code": "0155E0",
       "isin": "KR70155E0001",
       "name": "해치텍",
@@ -1935,6 +1949,20 @@
       "name": "SGC E&C",
       "corporationName": "에스지씨이앤씨(주)",
       "corporateRegistrationNumber": "1101110327555",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
+      "code": "0162D0",
+      "isin": "KR70162D0003",
+      "name": "동원파츠",
+      "corporationName": "(주)동원파츠",
+      "corporateRegistrationNumber": "1101111420746",
       "market": "KOSDAQ",
       "classification": "common_candidate",
       "classificationBasis": "conservative_name_heuristic",
@@ -13861,7 +13889,7 @@
       "code": "148250",
       "isin": "KR7148250004",
       "name": "스퀘어텍",
-      "corporationName": "(주)알엔투테크놀로지",
+      "corporationName": "(주)스퀘어텍",
       "corporateRegistrationNumber": "1156110036979",
       "market": "KOSDAQ",
       "classification": "common_candidate",
@@ -25296,6 +25324,20 @@
       "exclusionReason": null
     },
     {
+      "code": "493410",
+      "isin": "KR7493410005",
+      "name": "넥스아이",
+      "corporationName": "주식회사 넥스아이",
+      "corporateRegistrationNumber": "1101117849370",
+      "market": "KOSDAQ",
+      "classification": "common_candidate",
+      "classificationBasis": "conservative_name_heuristic",
+      "classificationVerified": false,
+      "managementStatus": "unverified",
+      "eligibleForPreliminaryScreen": true,
+      "exclusionReason": null
+    },
+    {
       "code": "493790",
       "isin": "KR7493790000",
       "name": "유안타제17호스팩",
@@ -25663,7 +25705,7 @@
       "code": "000040",
       "isin": "KR7000040006",
       "name": "다이나맥",
-      "corporationName": "KR모터스(주)",
+      "corporationName": "(주)다이나맥",
       "corporateRegistrationNumber": "1601110007032",
       "market": "KOSPI",
       "classification": "common_candidate",
